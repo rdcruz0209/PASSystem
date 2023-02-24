@@ -94,6 +94,7 @@ public class Policy extends CustomerAccount { // use composition to compose poli
 				).findAny().get();
 	}
 
+	
 	public Policy getPolicyObjByPolicyNum(int policyNum) {
 		int[] accArrayIndex = getAccAndPolicyIndexByPolicyNum(policyNum);
 		int accIndex = accArrayIndex[0];
