@@ -45,7 +45,7 @@ public class Vehicle extends Policy {
 		}
 		do {
 			if (plateNumber.length()<6 || plateNumber.length()>10) {
-				System.out.println("Invalid Input.");
+				System.out.println("Invalid Inputs.");
 				System.out.print("Please enter an alpha-numeric plate number (6-10 digits): ");
 				plateNumber = input.nextLine();
 				continue;
